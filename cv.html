@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mon CV</title>
+    <meta name="description" content="Ceci est le CV de ma vie">
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+        $('a[href^="#"]').click(function(){
+            var the_id = $(this).attr("href");
+            $('html, body').animate({
+            scrollTop:$(the_id).offset().top-160
+        }, 'slow');
+        return false;
+    });
+    </script>
+    
+</head>
+
+<body>
+    <header>
+        <center>
+            <div id="header-sub-background">
+                <div id="header-background">
+                    <h1>Ismaël Boukhars</h1>
+                    <h2>Jeune étudiant</h2>
+                </div>
+            </div>
+        </center>
+        <nav>
+            <center>
+                <div class="expand">
+                    <img src="images/burger-menu.png" alt="menu-deroulant-cv-ismael-boukhars-developpeur">
+                    <br>
+                    <br>
+                    <a href="#experiencepro">Professionnel</a>
+                    <a href="#academique">Académique</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#contact">Localisation</a>
+                    <a href="#video">Vidéo</a>
+                    <a href="#contact">Contact</a>
+                    <a href="images/cv.ismael.pdf" target="_blank">Telecharger le CV en PDF</a>
+                </div>
+            </center>
+        </nav>
+    </header>
+
+    <section id="tampon"></section>
+    
+    <section class="bodypart" id="experiencepro">
+        <div class="left-side">
+            <h3>Mes experiences professionnelles</h3>
+            <table>
+                <thead>
+                    <th width="14%">Année</th>
+                    <th width="35%">Entreprise</th>
+                    <th width="42%">Mission</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2017</td>
+                        <td>CAPSENS SA</td>
+                        <td>Chef de Projet Web</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>MONEO PAYMENT SOLUTIONS</td>
+                        <td>Responsable Commercial</td>
+                    </tr>                     
+                    <tr>
+                        <td>2015</td>
+                        <td>DEVAL TRAITEUR SARL</td>
+                        <td>Responsable Commercial</td>
+                    </tr> 
+                    <tr>
+                        <td>2014</td>
+                        <td>HOTEL HERMITAGE 5*</td>
+                        <td>Assistant Administratif</td>
+                    </tr> 
+                </tbody>
+            </table>
+        </div>
+        <div class="right-side" id="right-professionnel"></div>
+    </section>
+    
+    <section class="bodypart" id="academique">
+        <div class="left-side">
+
+            <h3>Mon parcours académique</h3>
+            <ul>
+                <li><b>2017 :</b> Master Commerce International PPA
+                <li><b>2015 :</b> Bachelor Commerce International Kedge Business School
+                <li><b>2014 :</b> TOEFL IBT avec un score de 82 /120
+                <li><b>2012 :</b> Baccalauréat Scientifique Lycée Max Linder
+            </ul>
+        </div>
+
+        <div class="right-side" id="right-academique"></div>
+    </section>
+    
+
+    <section class="bodypart" id="competences">
+        <div class="left-side">        
+            <h3>Mes Compétences</h3>
+            <table>
+                <tr>
+                    <td width="25%">HTML5 & CSS3</td>
+                    <td><progress style="width:75%"; value="60" max="100"></progress></td>
+                <tr>
+                <tr>
+                <tr>
+                    <td>Ruby on Rails</td>
+                    <td><progress style="width:75%"; value="40" max="100"></progress></td>
+                </tr>
+                <tr>
+                    <td>Ruby</td>
+                    <td><progress style="width:75%"; value="30" max="100"></progress></td>
+                </tr>
+                <tr>
+                    <td>WIX</td>
+                    <td><progress style="width:75%"; value="90" max="100"></progress></td>
+                </tr>
+                <tr>
+                    <td>Adobe .psd .ai .indd</td>
+                    <td><progress style="width:75%"; value="75" max="100"></progress></td>
+                </tr>                                  
+            </table>
+        </div>
+
+        <div class="right-side" id="right-competences"></div>
+    </section>
+    
+    <section class="bodypart" id="coordonnees">
+        <div class="left-side">        
+            <h3>Coordonnées</h3>
+            <table width="80%">
+                <tr>
+                    <td width="40%">Email:</td>
+                    <td width="60%">ismael.boukhars@kedgebs.com</td>
+                </tr>
+                <tr>
+                    <td width="40%">Téléphone :</td>
+                    <td width="60%">06 33 09 60 08</td>
+                </tr>
+                <tr>
+                    <td width="40%">Adresse :</td>
+                    <td width="60%">Clichy 92110</td>
+                </tr>
+                             
+            </table>
+        </div>
+
+        <div class="right-side" id="right-coordonnees">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.0472036108677!2d2.323227015758371!3d48.87637667928927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e359d9d0083%3A0x5b6b5970603d3000!2sParis+Saint-Lazare!5e0!3m2!1sfr!2sfr!4v1494697451209" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    
+    <section class="bodypart" id="video">
+        <div class="left-side">                
+            <h3>Une vidéo pour tout résumer</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+        </div>
+
+        <div class="right-side">                     
+            <iframe width="50%" height="50%" src="https://www.youtube.com/embed/NLZRYQMLDW4" frameborder="0" allowfullscreen></iframe>            
+            <iframe width="50%" height="50%" src="https://www.youtube.com/embed/N29-54dhVHg" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="right-right-side">                      
+            <iframe width="50%" height="50%" src="https://www.youtube.com/embed/toDGkA_RhhI" frameborder="0" allowfullscreen></iframe>        
+            <iframe width="50%" height="50%" src="https://www.youtube.com/embed/NLZRYQMLDW4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    
+    <section class="bodypart contact">
+        <div id="particles-js">
+            <center>
+                <div id="middle-side">
+                    <div id="inside-middle-side">
+                        <img src="images/Photo.Profil.png" width="185px">        
+                        <h3>Embauchez-moi !</h3>
+                        <form action="/#" method="post">
+                            <table>
+                                <tr>
+                                    <td><label for="nom">Nom :</label></td>
+                                    <td><input style="width:80%" type="text" id="nom"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="courriel">Email :</label></td>
+                                    <td><input style="width:80%" type="email" id="courriel" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="mission">Type de Mission :</label></td>
+                                    <td><input style="width:80%" type="mission" id="mission" /></td>
+                                </tr>                         
+                                <tr>
+                                    <td><label for="message">Message :</label></td>
+                                    <td><textarea style="width:80%" id="message"></textarea></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>    
+    
+    
+    <footer>
+             Ismaël Boukhars ©
+    </footer>
+    
+</body>
+
+</html>
